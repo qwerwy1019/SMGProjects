@@ -125,7 +125,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PrecompiledHeader>Create</PrecompiledHeader>
-      <AdditionalOptions>/RTC1 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/RTC1 /Zm200 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -178,6 +178,7 @@
     <ClCompile Include="..\..\Codes\SMGEngine\SkinnedData.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\StageInfo.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\StageManager.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\Terrain.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeGeometry.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\UIManager.cpp" />
   </ItemGroup>
@@ -205,6 +206,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\StageInfo.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\StageManager.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\stdafx.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\Terrain.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\TypeAction.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\TypeD3d.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\TypeCommon.h" />
