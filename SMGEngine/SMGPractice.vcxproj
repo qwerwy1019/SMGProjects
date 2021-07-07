@@ -125,7 +125,11 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PrecompiledHeader>Create</PrecompiledHeader>
-      <AdditionalOptions>/RTC1 /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/RTC1 /Zm200 /we4545 /we4546 /we4547 /we4548 /we4549 %(AdditionalOptions)</AdditionalOptions>
+      <TreatSpecificWarningsAsErrors>
+      </TreatSpecificWarningsAsErrors>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -163,10 +167,12 @@
     <ClCompile Include="..\..\Codes\SMGEngine\Actor.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\D3DApp.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\D3DUtil.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\Exception.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\FileHelper.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\FrameEvent.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\FrameResource.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\CharacterInfoManager.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\GameObject.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\SMGFramework.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\GameTimer.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\GeometryGenerator.cpp" />
@@ -195,6 +201,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\FrameEvent.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\FrameResource.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\CharacterInfoManager.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\GameObject.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\SMGFramework.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\GameTimer.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\GeometryGenerator.h" />

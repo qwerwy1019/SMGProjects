@@ -84,6 +84,12 @@
     <ClCompile Include="..\..\Codes\SMGEngine\Terrain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\Exception.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\GameObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\SMGEngine\D3DApp.h">
@@ -177,6 +183,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Codes\SMGEngine\Terrain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\GameObject.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
