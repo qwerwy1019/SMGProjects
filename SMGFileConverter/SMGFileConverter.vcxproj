@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\SMGEngine\D3DUtil.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\Exception.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\FileHelper.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\MathHelper.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\SkinnedData.h" />
@@ -28,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Codes\SMGEngine\D3DUtil.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\Exception.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\SkinnedData.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeGeometry.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\FileHelper.cpp" />
@@ -93,7 +95,7 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
