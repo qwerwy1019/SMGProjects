@@ -165,6 +165,7 @@
     <ClCompile Include="..\..\Codes\SMGEngine\ActionChart.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\ActionCondition.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\Actor.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\CollisionHandler.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\D3DApp.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\D3DUtil.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\Exception.cpp" />
@@ -194,6 +195,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\ActionChart.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\ActionCondition.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\Actor.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\CollisionHandler.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\D3DApp.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\D3DUtil.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\Exception.h" />
