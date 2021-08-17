@@ -93,6 +93,12 @@
     <ClCompile Include="..\..\Codes\SMGEngine\CollisionHandler.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\Effect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\ShadowMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\SMGEngine\D3DApp.h">
@@ -192,6 +198,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Codes\SMGEngine\CollisionHandler.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\Effect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\ShadowMap.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
