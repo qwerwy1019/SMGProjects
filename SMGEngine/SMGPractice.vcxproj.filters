@@ -99,6 +99,18 @@
     <ClCompile Include="..\..\Codes\SMGEngine\ShadowMap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\CameraPoint.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\TypeStage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\Path.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\SMGEngine\D3DApp.h">
@@ -204,6 +216,18 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Codes\SMGEngine\ShadowMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\CameraPoint.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\TypeStage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\Path.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
