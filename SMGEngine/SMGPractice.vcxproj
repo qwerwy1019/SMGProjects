@@ -165,6 +165,7 @@
     <ClCompile Include="..\..\Codes\SMGEngine\ActionChart.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\ActionCondition.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\Actor.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\BackgroundObject.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\Camera.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\CameraPoint.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\CollisionHandler.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="..\..\Codes\SMGEngine\FrameResource.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\CharacterInfoManager.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\GameObject.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\ObjectInfo.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\Path.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\ShadowMap.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\SMGFramework.cpp" />
@@ -194,6 +196,7 @@
     <ClCompile Include="..\..\Codes\SMGEngine\TypeGeometry.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeStage.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\UIManager.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\UserData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\DirectX\d3dx12.h" />
@@ -201,6 +204,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\ActionChart.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\ActionCondition.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\Actor.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\BackgroundObject.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\Camera.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\CameraPoint.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\CollisionHandler.h" />
@@ -213,6 +217,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\FrameResource.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\CharacterInfoManager.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\GameObject.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\ObjectInfo.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\Path.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\ShadowMap.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\SMGFramework.h" />
@@ -235,6 +240,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\TypeUI.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\UIManager.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\UploadBuffer.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\UserData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

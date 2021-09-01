@@ -111,6 +111,15 @@
     <ClCompile Include="..\..\Codes\SMGEngine\Path.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\BackgroundObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\UserData.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\ObjectInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\SMGEngine\D3DApp.h">
@@ -228,6 +237,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Codes\SMGEngine\Path.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\BackgroundObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\UserData.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\ObjectInfo.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
