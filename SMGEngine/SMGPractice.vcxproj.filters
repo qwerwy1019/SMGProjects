@@ -120,6 +120,15 @@
     <ClCompile Include="..\..\Codes\SMGEngine\ObjectInfo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\StageScript.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\StagePhaseCondition.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Codes\SMGEngine\StagePhaseFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Codes\SMGEngine\D3DApp.h">
@@ -246,6 +255,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Codes\SMGEngine\ObjectInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\StageScript.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\StagePhaseCondition.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Codes\SMGEngine\StagePhaseFunction.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

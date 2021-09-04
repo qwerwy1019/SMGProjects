@@ -192,6 +192,9 @@
     <ClCompile Include="..\..\Codes\SMGEngine\SkinnedData.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\StageInfo.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\StageManager.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\StagePhaseCondition.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\StagePhaseFunction.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\StageScript.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\Terrain.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeGeometry.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeStage.cpp" />
@@ -230,6 +233,9 @@
     <ClInclude Include="..\..\Codes\SMGEngine\SkinnedData.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\StageInfo.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\StageManager.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\StagePhaseCondition.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\StagePhaseFunction.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\StageScript.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\stdafx.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\Terrain.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\TypeAction.h" />
