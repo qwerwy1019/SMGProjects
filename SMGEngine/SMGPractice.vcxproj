@@ -198,6 +198,7 @@
     <ClCompile Include="..\..\Codes\SMGEngine\Terrain.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeGeometry.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\TypeStage.cpp" />
+    <ClCompile Include="..\..\Codes\SMGEngine\UIFunction.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\UIManager.cpp" />
     <ClCompile Include="..\..\Codes\SMGEngine\UserData.cpp" />
   </ItemGroup>
@@ -244,6 +245,7 @@
     <ClInclude Include="..\..\Codes\SMGEngine\TypeGeometry.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\TypeStage.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\TypeUI.h" />
+    <ClInclude Include="..\..\Codes\SMGEngine\UIFunction.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\UIManager.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\UploadBuffer.h" />
     <ClInclude Include="..\..\Codes\SMGEngine\UserData.h" />
